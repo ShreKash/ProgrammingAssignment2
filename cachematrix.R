@@ -1,9 +1,6 @@
-##R programming , week 3 , Project Assignment
-
+##R programming , Week 3 Project Assignment
 
 ## This function creates a special "matrix" object that can cache its inverse
-
-
 
 makeCacheMatrix <- function(x = matrix()) {
     inv<-NULL 
@@ -17,7 +14,6 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set=set,get=get,setinverse=setinverse,getinverse=getinverse)
 
 }
-
 
 ## This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
 ## If the inverse has already been calculated (and the matrix has not changed),
